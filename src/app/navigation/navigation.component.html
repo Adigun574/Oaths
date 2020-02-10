@@ -38,11 +38,13 @@
   <mat-sidenav mode="side" #sidenav id="sidenav" [class.menu-open]="isMenuOpen" [class.menu-close]="!isMenuOpen" opened>
     <mat-list id="menus">
       <mat-card>
-        <mat-card-header [ngStyle]="{'color':'#00787A'}">
+        <mat-card-header [ngStyle]="{'color':'#00787A', 'fontFamily': 'Amarante, Tahoma, sans-serif'}">
           <div mat-card-avatar class="avatar"></div>
+
 
           <mat-card-title (click)="openModal(passwordModal)" style="cursor:pointer">{{user.firstName}}</mat-card-title>
           <mat-card-subtitle [ngStyle]="{'color':'#05ac72'}">{{user.role.name}}</mat-card-subtitle>
+
         </mat-card-header>
       </mat-card>
       <mat-list-item>

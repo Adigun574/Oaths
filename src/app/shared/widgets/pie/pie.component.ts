@@ -64,9 +64,9 @@ export class PieComponent implements OnInit {
         // "#FAD010",
         // "#B57CFC",
         // "#F65B03"
-        '#349d63',
-        '#EB0C4C',
-        '#F9B219',
+        '#1EEFAC',
+        '#6AF9C4',
+        '#FFF600',
         '#37B1D4'
       ]
     });
